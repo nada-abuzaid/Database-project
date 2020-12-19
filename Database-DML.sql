@@ -118,7 +118,7 @@ insert into employees values (1402, 'Sarah' , 'Zaid' ,  '8 feb 2017' , 'sarah@gm
 
 insert into employees values (1501, 'Abood' , 'Habib' ,  '2 feb 2017' , 'abood@gmail.com'  , 3399 , 0595698455 , 'contract' ,1100 , 403287251 , 'single' , 'Male', 'Khanyounis ' , '11 may 1991' , 'khanyounis', 'A+',15 ,88 );
 
-insert into employees values (1502, 'Hamed' , 'Bitar' , 8 may 2018 , 'hamed@gmail.com'  , 4411 , 0592697521, 'contract' , 1100 , 449624035 , 'single' , 
+insert into employees values (1502, 'Hamed' , 'Bitar' , '8 may 2018' , 'hamed@gmail.com'  , 4411 , 0592697521, 'contract' , 1100 , 449624035 , 'single' , 
 'Male ', 'Khanyounis ' , '8 may  1992' , ' khanyounis ', 'A+', 15 , 88);
 
 insert into employees values (1503, 'Jehad' , 'Astal' ,  '13 feb 2018' , 'jehad@gmail.com'  , 4422 ,  0595297630 , 'voluntary' , null , 4474892746 , 'single ' , ' Male ', ' Khanyounis ' , '10 feb 1995' , ' khanyounis ', 'A+', '15' ,  '77' );
@@ -379,7 +379,7 @@ Alter table healthInsurance modify  file_num unique;
 -- 17 Insert patientsInfo table rows --
 insert into patientsInfo values(patient_id.nextval, 301,1000,'Asmaa','Kullab',0598513615,'25 feb 2001','Female','single','khanyounis'); 
 insert into patientsInfo values(patient_id.nextval, 402,2000,'Jomana','Sanjer',0593363215,'2 may 2000','Female','single','khanyounis');  
-insert into patientsInfo values(patient_id.nextval, '501','3000','ola','emaira','0598561155','9 march 1999','Female','single','khanyounis'); 
+insert into patientsInfo values(patient_id.nextval, 501,3000,'ola','emaira',0598561155,'9 march 1999','Female','single','khanyounis'); 
 insert into patientsInfo values(patient_id.nextval, 602,4000,'Emtenan','Rouk',0598558215,'13 june 2008','Female','single','khanyounis'); 
 insert into patientsInfo values(patient_id.nextval, 801,5000,'Saja','Sehweel',0598598655,'23 oct 2016','Female','single','khanyounis'); 
 insert into patientsInfo values(patient_id.nextval, 301,6000,'Haneen','Almasry',0590003215,'3 oct 2001','Female','single','khanyounis'); 
