@@ -15,19 +15,19 @@ CONNECT project;
 -- Create Tables --
 -- 1
 CREATE TABLE departments (
-   dep_id number(5) constraint dep_id PRIMARY KEY,
+   dep_id number(5) PRIMARY KEY,
    dep_name varchar2(30));
 
    
 -- 2
 CREATE TABLE jobTitle(
-   job_id number(4) constraint job_id PRIMARY KEY,
+   job_id number(4) PRIMARY KEY,
    job_name varchar2(20));
 
    
 -- 3
 CREATE TABLE employees(
-   emp_id number(5) constraint emp_id PRIMARY KEY,
+   emp_id number(5) PRIMARY KEY,
    emp_fname varchar2(20),
    emp_lname varchar2(20),
    hire_date date,
