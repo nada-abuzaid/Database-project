@@ -1,7 +1,7 @@
 --- DML ---
 
 -- Inserts --
--- 1 Insert departments table rows --
+-- 1 Insert departments table rows 
 insert into departments values (dep_id.nextval,'Management');
 insert into departments values (dep_id.nextval,'Financial');
 insert into departments values (dep_id.nextval,'Dental');
@@ -492,11 +492,3 @@ insert into pharmacy values ( pharm_id.nextval , 10 , 1402 , 10 );
 insert into transfers values (1,5,'naser','The patient needs surgery');
 insert into transfers values (2,9,'naser','The patient needs surgery');
 
-
--- Select --
-select e.emp_fname || e.emp_lname as "Full Name",d.dep_name,m.emp_id
-FROM employees e
-JOIN departments d
-ON e.dep_id = d.dep_id
-JOIN  managers m
-ON e.emp_id = m.emp_id;
