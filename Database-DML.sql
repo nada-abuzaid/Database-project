@@ -1,7 +1,7 @@
 --- DML ---
 
 -- Inserts --
--- 1 Insert departments table rows 
+-- 1 Insert departments table rows --
 insert into departments values (dep_id.nextval,'Management');
 insert into departments values (dep_id.nextval,'Financial');
 insert into departments values (dep_id.nextval,'Dental');
