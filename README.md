@@ -8,5 +8,5 @@
 
 #Entity Relationship Diagram
 ---
-<img src="ERD/project.png">
+<img src="ERD/project.jpg">
 
